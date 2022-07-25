@@ -1,0 +1,40 @@
+
+GET http://localhost:1000
+###
+
+GET http://localhost:1000/date
+###
+
+GET http://localhost:1000/index
+###
+
+
+GET http://localhost:1000/cricket_team
+###
+
+
+GET http://localhost:1000/cricket_team/1
+###
+
+
+
+POST http://localhost:1000/cricket_team/
+Content-Type: application/json
+
+{
+    "player_id": 11,
+    "player_name": "Rajendra",
+    "jersey_number": 63,
+    "role": "Batsman"
+  }
+###
+
+
+
+
+
+
+
+
+
+
